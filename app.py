@@ -14,15 +14,14 @@ open_api_key = st.sidebar.text_input(
     help="Get your API key from https://openai.com/",
     type='password')
 
+nav = get_nav_from_toml()
 
+pg = st.navigation(nav)
+
+add_page_title(pg)
+
+pg.run()
 if open_api_key != '':
     title_container.empty()
     os.environ["OPENAI_API_KEY"] = open_api_key
 
-    nav = get_nav_from_toml()
-
-    pg = st.navigation(nav)
-
-    add_page_title(pg)
-
-    pg.run()
