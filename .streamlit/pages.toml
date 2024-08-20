@@ -1,0 +1,22 @@
+[[pages]]
+path = "pages/home.py"
+name = "HOME"
+icon = "🏠"
+
+[[pages]]
+path = "pages/app_dalle.py"
+name = "DALL-E"
+icon = ":lower_left_paintbrush:"
+url_path = "dall-e" 
+
+[[pages]]
+path = "pages/app_gpt.py"
+name = "GPT"
+icon = ":robot_face:"
+url_path = "gpt" 
+
+[[pages]]
+path = "pages/app_tts.py"
+name = "TTS"
+icon = ":microphone:"
+url_path = "tts" 
