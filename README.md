@@ -8,3 +8,16 @@ Hello. In this application, a multi-model service has been prepared using the se
 pip install -r requirements.txt
 streamlit run app.py
 ```
+
+### Examples
+
+Firstly, you need to enter your OpenAI API key on the left side of the screen.
+
+#### Dall-E 
+![dall-e](imgs/dalle-app.jpg)
+
+#### GPT 
+![GPT](imgs/gpt-app.jpg)
+
+#### TTS
+![TTS](imgs/tts-app.jpg)
